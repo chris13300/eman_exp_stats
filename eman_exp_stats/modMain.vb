@@ -9,24 +9,14 @@
         Dim tabECO(0) As String, i As Integer, j As Integer, compteur As Integer
         Dim depart As Integer, moteur_court As String
         
-        If My.Computer.FileSystem.GetFileInfo(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) & "\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\bin\Debug\eman_exp_stats.exe").LastWriteTime > My.Computer.FileSystem.GetFileInfo(My.Application.Info.AssemblyName & ".exe").LastWriteTime Then
-            MsgBox("Il existe une version plus récente de ce programme !", MsgBoxStyle.Information)
-            End
-        End If
-
-        fichierEXP = Replace(Command(), """", "")
+                fichierEXP = Replace(Command(), """", "")
         If fichierEXP = "" Or Not My.Computer.FileSystem.FileExists(fichierEXP) Then
             End
         End If
 
         fichierINI = My.Computer.Name & ".ini"
         fichierECO = "ouvertures.txt"
-        moteurEXP = "D:\JEUX\ARENA CHESS 3.5.1\Engines\Eman\20T Eman 8.20 x64 PCNT.exe"
-        If My.Computer.Name = "BOIS" Or My.Computer.Name = "HTPC" Or My.Computer.Name = "TOUR-COURTOISIE" Then
-            moteurEXP = "D:\JEUX\ARENA CHESS 3.5.1\Engines\Eman\20T Eman 8.20 x64 BMI2.exe"
-        ElseIf My.Computer.Name = "BUREAU" Or My.Computer.Name = "WORKSTATION" Then
-            moteurEXP = "E:\JEUX\ARENA CHESS 3.5.1\Engines\Eman\20T Eman 8.20 x64 BMI2.exe"
-        End If
+        moteurEXP = "Eman.exe"
 
         If My.Computer.FileSystem.FileExists(fichierINI) Then
             chaine = My.Computer.FileSystem.ReadAllText(fichierINI)
