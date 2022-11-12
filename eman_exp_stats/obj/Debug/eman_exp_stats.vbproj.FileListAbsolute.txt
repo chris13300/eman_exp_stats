@@ -1,0 +1,9 @@
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\bin\Debug\eman_exp_stats.exe.config
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\bin\Debug\eman_exp_stats.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\bin\Debug\eman_exp_stats.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\bin\Debug\eman_exp_stats.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\obj\Debug\eman_exp_stats.Resources.resources
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\obj\Debug\eman_exp_stats.vbproj.GenerateResource.Cache
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\obj\Debug\eman_exp_stats.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\obj\Debug\eman_exp_stats.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\eman_exp_stats\eman_exp_stats\obj\Debug\eman_exp_stats.pdb
